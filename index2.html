@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1 style="text-align: center;">購物中心</h1>
+        </div>
+        <div style="margin-top: 60px;" role="main" class="ui-content">
+            <div is="grid" class="ui-grid-b" style="height: 130px;">
+                <ul data-role="listview" data-inset="true">
+                    <div class="ui-block-a" style="height: 100%;text-align:center;">
+                        <img src="image/food.png" style="width: 60px;margin: 5px 15px 5px 18px;">
+                        <h5 style="text-align: center;margin-top: -5px;"><li><a href="#A">食物</h5></li></a>
+                    </div>
+                    <div class="ui-block-b" style="height: 100%;text-align:center;">
+                        <img src="image/女生配件.png" style="width: 60px;margin: 5px 15px 5px 18px;">
+                        <h5 style="text-align: center;margin-top: -5px;"><li><a href="#B">女生配件</h5></li></a>
+                    </div>
+                    <div class="ui-block-c" style="height: 100%;text-align:center;">
+                        <img src="image/美妝.png" style="width: 60px;margin: 5px 15px 5px 18px;">
+                        <h5 style="text-align: center;margin-top: -5px;"><li><a href="#C">美妝保健</h5></li></a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-top: 60px;" role="main" class="ui-content;">
+            <div is="grid" class="ui-grid-b" style="height: 130px;">
+                <ul data-role="listview" data-inset="true">
+                    <div class="ui-block-a" style="height: 100%;text-align:center;">
+                        <img src="image/背包.png" style="width: 60px;margin: 5px 15px 5px 18px;">
+                        <h5 style="text-align: center;margin-top: -5px;"><li><a href="#D">背包</h5></li></a>
+                    </div>
+                    <div class="ui-block-b" style="height: 100%;text-align:center;">
+                        <img src="image/居家生活.png" style="width: 60px;margin: 5px 15px 5px 18px;">
+                        <h5 style="text-align: center;margin-top: -5px;"><li><a href="#E">居家生活</h5></li></a>
+                    </div>
+                    <div class="ui-block-c" style="height: 100%;text-align:center;">
+                        <img src="image/3C與筆電.png" style="width: 60px;margin: 5px 15px 5px 18px;">
+                        <h5 style="text-align: center;margin-top: -5px;"><li><a href="#F">3C與筆電</h5></a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>@2019 Merry Shop</h4>
+        </div>
+    </div>
+    
+    <div data-role="page" id="A">
+        
+        <div data-role="header">
+            
+            <ul data-role="listview" data-inset="true" data-divider-thene="a">
+                <li style="text-align:center;font-size:25px"><h1>食物</h1></li>
+            </ul>
+            <a href="#"	data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui - shadow ui -corner-all" data-role="button"Back←></a>
+        </div>
+        <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#a1">零食</a></li>
+                <li><a href="#a2">麵食</a></li>
+                <li><a href="#a3">蛋糕</a></li>
+                <li><a href="#a4">生鮮食品</a></li>
+                <li><a href="#a5">飲料</a></li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>@2019 Merry Shop</h4>
+        </div>
+    </div>
+    <div data-role="page" id="B">
+        
+        <div data-role="header">
+            
+            <ul data-role="listview" data-inset="true" data-divider-thene="a">
+                <li style="text-align:center;font-size:25px"><h1>女生配件</h1></li>
+            </ul>
+            <a href="#"	data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui - shadow ui -corner-all" data-role="button"Back←></a>
+        </div>
+        <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#a6">襪子</a></li>
+                <li><a href="#a7">髮飾</a></li>
+                <li><a href="#a8">耳環</a></li>
+                <li><a href="#a9">眼鏡</a></li>
+                <li><a href="#a10">手錶</a></li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>@2019 Merry Shop</h4>
+        </div>
+    </div>
+    <div data-role="page" id="C">
+        
+        <div data-role="header">
+            
+            <ul data-role="listview" data-inset="true" data-divider-thene="a">
+                <li style="text-align:center;font-size:25px"><h1>美妝保健</h1></li>
+            </ul>
+            <a href="#"	data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui - shadow ui -corner-all" data-role="button"Back←></a>
+        </div>
+        <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#a11">流行彩妝</a></li>
+                <li><a href="#a12">美甲</a></li>
+                <li><a href="#a13">香水</a></li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>@2019 Merry Shop</h4>
+        </div>
+    </div>
+    <div data-role="page" id="D">
+        
+        <div data-role="header">
+            
+            <ul data-role="listview" data-inset="true" data-divider-thene="a">
+                <li style="text-align:center;font-size:25px"><h1>背包</h1></li>
+            </ul>
+            <a href="#"	data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui - shadow ui -corner-all" data-role="button"Back←></a>
+        </div>
+        <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#a14">後背包</a></li>
+                <li><a href="#a15">手提包</a></li>
+                <li><a href="#a16">電腦包</a></li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>@2019 Merry Shop</h4>
+        </div>
+    </div>
+    <div data-role="page" id="E">
+        
+        <div data-role="header">
+            
+            <ul data-role="listview" data-inset="true" data-divider-thene="a">
+                <li style="text-align:center;font-size:25px"><h1>居家生活</h1></li>
+            </ul>
+            <a href="#"	data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui - shadow ui -corner-all" data-role="button"Back←></a>
+        </div>
+        <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#a17">傢俱</a></li>
+                <li><a href="#a18">文具</a></li>
+                <li><a href="#a19">燈具</a></li>
+                <li><a href="#a20">水壺</a></li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>@2019 Merry Shop</h4>
+        </div>
+    </div>
+    <div data-role="page" id="F">
+        
+        <div data-role="header">
+            
+            <ul data-role="listview" data-inset="true" data-divider-thene="a">
+                <li style="text-align:center;font-size:25px"><h1>3C與筆電</h1></li>
+            </ul>
+            <a href="#"	data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui - shadow ui -corner-all" data-role="button"Back←></a>
+        </div>
+        <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#a21">耳機</a></li>
+                <li><a href="#a22">滑鼠</a></li>
+                <li><a href="#a23">筆記型電腦</a></li>
+                <li><a href="#a24">相機</a></li>
+                <li><a href="#a25">儲存裝置</a></li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a1">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>零食</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\零食.png" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a2">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>麵食</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\麵食.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a3">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>蛋糕</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\蛋糕.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a4">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>生鮮食品</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\生鮮食品.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a5">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>飲料</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\飲料.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a6">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>襪子</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\襪子.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a7">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>髮飾</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\髮飾.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a8">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>耳環</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\耳環.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a9">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>眼鏡</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\眼鏡.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a10">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>手錶</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\手錶.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a11">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>流行彩妝</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\流行彩妝.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a12">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>美甲</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\美甲.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a13">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>香水</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\香水.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a14">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>後背包</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\後背包.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a15">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>手提包</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\手提包.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a16">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>電腦包</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\電腦包.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a17">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>傢俱</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\傢俱.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a18">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>文具</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\文具.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a19">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>燈具</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\燈具.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a20">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>水壺</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\水壺.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a21">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>耳機</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\耳機.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a22">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>滑鼠</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\滑鼠.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a23">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>筆記型電腦</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\筆記型電腦.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a24">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>相機</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\相機.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    <div data-role="page" id="a25">
+
+        <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>儲存裝置</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"><img src="images 2\儲存裝置.jpg" alt=""></div>
+            <ul data-role="listview" data-inset="true">
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>@2019 Merry Shop</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+</html>
+</html>
